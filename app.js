@@ -1,6 +1,6 @@
 var lab1_1 = require("./lab/lab1_1").lab;
 var example_1 = require("./lab/example_1").lab
-var lab2 = require("./lab/ec2instance").info;
+var ec2instance = require("./lab/ec2instance").info;
 var AWS = require('aws-sdk');
 
 var PORT = 8080;
